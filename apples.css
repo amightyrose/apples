@@ -3,3 +3,10 @@ header {
 	background-size: cover;
 }
 
+.section-img {
+	max-height: 400px;
+}
+
+#hours {
+	background-color: #333;
+}
