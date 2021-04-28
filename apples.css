@@ -1,12 +1,45 @@
-header {
-	background-image: url(images/aot.jpg);
-	background-size: cover;
+.navbar-collapse {
+	justify-content: center;
 }
 
+.nav-link {
+	text-decoration: none;
+	color: white
+}
+
+.hero {
+	background: url(images/aot.jpg) center center no-repeat;
+	background-size: cover;
+	display: table;
+	width: 100%;
+	padding: 0;
+}
+
+header .overlay {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+#headerText {
+	/* padding-top: 10rem; */
+	padding-bottom: 4rem;
+}
+
+section {
+	padding: 6rem 0;
+}
 .section-img {
-	max-height: 400px;
+	max-height: 300px;
 }
 
 #hours {
 	background-color: #333;
+}
+
+#hours h3 {
+	font-weight: 300;
+}
+
+hr {
+	width: 60px;
+	height: 2px;
 }

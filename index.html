@@ -13,18 +13,17 @@
 
 <body>
 
+
 	<nav class="navbar navbar-expand-sm fixed-top">
 		<div class="container">
-
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
 				aria-controls="navbarMenu" aria-expanded="false" aria-label="toggle menu">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-
 			<div class="collapse navbar-collapse" id="navbarMenu">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" aria-current="" href="#top">Home</a>
+						<a class="nav-link" aria-current="" href="#home">Home</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#story">Our Story</a>
@@ -40,52 +39,91 @@
 					</li>
 				</ul>
 			</div>
-
 		</div>
 	</nav>
 
-	<header class="text-center py-5" id="top">
-		<h1 class="display-4 pb-5">Apples on Ainsworth</h1>
-		<p class="lead">28a/36 Ainsworth St, Salisbury QLD 4107</p>
+
+
+	<header class="text-center text-white" id="home">
+
+		<div class="hero">
+			<div class="overlay">
+				<div class="container" id="headerText">
+					<div class="row">
+						<h1 class="display-4 py-5">Apples on Ainsworth</h1>
+						<p class="lead pt-5">28a/36 Ainsworth St Salisbury 4107</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</header>
 
-	<main class="container">
+	<main>
 
-		<section class="row" id="story">
-			<div class="col-xs-12 col-sm-6">
-				<img src="images/aoaexterior.jpg" alt="Cafe front"  class="section-img">
-			</div>
-			<div class="col-xs-12 col-sm-6">
+		<section class="container" id="story">
+			<div class="text-center">
 				<h2>Our Story</h2>
+				<hr class="mx-auto my-4">
 				<p>
-					Apples on Ainsworth grew from humble beginnings as a suburban fruit and vegetable store into one of Brisbane south side's most well known cafes.
+					Apples on Ainsworth started as a small suburban fruit shop. It is now one of Brisbane southside's
+					most well known cafés.
 				</p>
 			</div>
 		</section>
 
-		<section id="coffee" class="row">
-			<div class="col-xs-12 col-sm-6">
-				<h2>Our Coffee</h2>
-				<p>
-					Apples on Ainsworth proudly serves Nat's Coffee, roasted in Byron Bay.
-				</p>
-				<p>
-					Nat's Batch 1 blend is a Colombian blend that is smooth and well balanced. A great milk coffee with just the right acidity. Batch 1 won a silver medal in the Golden Bean award in 2014.
-				</p>
-			</div>
-			<div class="col-xs-12 col-sm-6">
-				<img src="images/natscoffee.jpg" alt="Nat's Coffee" class="section-img">
+		<section id="gallery" class="container-fluid p-0">
+			<div class="row">
+				<div class="col-xs-6 col-md-3 p-0">
+					<div class="m-0"> <img src="images/gallery1.jpg" class="img-fluid" alt=""></div>
+				</div>
+				<div class="col-xs-6 col-md-3 p-0">
+					<div class="m-0"> <img src="images/gallery2.jpg" class="img-fluid" alt=""></div>
+				</div>
+				<div class="col-xs-6 col-md-3 p-0">
+					<div class="m-0"> <img src="images/gallery3.jpg" class="img-fluid" alt=""></div>
+				</div>
+				<div class="col-xs-6 col-md-3 p-0">
+					<div class="m-0"> <img src="images/gallery4.jpg" class="img-fluid" alt=""></div>
+				</div>
 			</div>
 		</section>
 
-		<section id="menu"></section>
+		<section id="coffee" class="container">
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-5">
+					<h2>Our Coffee</h2>
+					<hr class="ms-2 my-4">
+					<p>
+						Apples on Ainsworth proudly serves Nat's Coffee, roasted in Byron Bay.
+					</p>
+					<p>
+						Nat's Batch 1 blend is a Colombian blend that is smooth and well balanced. A great milk coffee
+						with just the right acidity. Batch 1 won a silver medal in the Golden Bean award in 2014.
+					</p>
+				</div>
+				<div class="col-md-5 text-center">
+					<img src="images/natscoffee.jpg" alt="Nat's Coffee" class="section-img img-fluid">
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+		</section>
 
-		<section id="hours" class="text-center text-white">
-			<h2>Opening Hours</h2>
-			<p>
+		<section class="container" id="menu">
+			<div class="text-center">
+				<h2>Our Menu</h2>
+				<hr class="mx-auto my-4">
+			</div>
+		</section>
+
+		<section id="hours" class="container-fluid text-center text-white py-5">
+			<h3>Opening Hours</h3>
+			<hr class="mx-auto my-4">
+			<p class="lead mb-1">
 				Monday to Friday: 6:00 am - 2:00 pm
 			</p>
-			<p>
+			<p class="lead mb-1">
 				Saturday and Sunday: 7:00 am - 2:00 pm
 			</p>
 		</section>
