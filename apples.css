@@ -1,3 +1,7 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
 .navbar-collapse {
 	justify-content: center;
 }
@@ -5,6 +9,26 @@
 .nav-link {
 	text-decoration: none;
 	color: white
+}
+
+#topNavBar {
+	transition: 0.3s ease-in-out;
+}
+
+.scrolled {
+	background-color: #333 !important;
+}
+
+.navbar a.active {
+	color: #669900;
+}
+
+.navbar a:hover {
+	color: #669900;
+}
+
+.nav-item {
+	padding: 0 0.5rem;
 }
 
 .hero {
@@ -15,20 +39,64 @@
 	padding: 0;
 }
 
+.hero h1 {
+	font-family: 'Pompiere', cursive;
+	font-size: 7rem;
+}
+
+hr {
+	color: #669900;
+	height: 2px!important;
+	width: 70px;
+	opacity: 1;
+}
+
 header .overlay {
 	background-color: rgba(0, 0, 0, 0.4);
 }
 
 #headerText {
-	/* padding-top: 10rem; */
 	padding-bottom: 4rem;
 }
 
 section {
 	padding: 6rem 0;
 }
+
 .section-img {
 	max-height: 300px;
+}
+
+#features h3 {
+	font-weight: 400;
+	margin-bottom: 2rem;
+}
+
+.feature-item {
+	margin: 0 40px;
+}
+
+#features img {
+	max-height: 240px;
+	min-width: 180px;
+}
+
+#features p {
+	padding-top: 2rem;
+}
+
+#coffee {
+	background-color: #f2f2f2;
+}
+
+.menu-item-header {
+	font-weight: 500;
+	font-size: 1.2em;
+	margin-bottom: 0.5rem;
+}
+
+.menu-item p {
+	padding-right: 2rem;
 }
 
 #hours {
@@ -37,9 +105,4 @@ section {
 
 #hours h3 {
 	font-weight: 300;
-}
-
-hr {
-	width: 60px;
-	height: 2px;
 }
